@@ -1,0 +1,183 @@
+/* notre grille de 12 colonnes */
+/* on définit la largeur ds colonnes en %age, on calcule la  première colonne = 100/12 donnera la taille de notre première que l'on multipliera pr avoir ls autres colonnes*/
+* {
+  box-sizing: border-box;
+}
+
+.mx-auto/* mx-auto c'est centrer horizontalement */ {
+  margin: auto;
+  text-align: center;
+  background-color: red;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.col-1 {
+  width: 8.333333%;
+  padding: 4px;
+}
+
+.col-2 {
+  width: 16.666666%;
+  padding: 4px;
+}
+
+.col-3 {
+  width: 25%;
+  padding: 4px;
+}
+
+.col-4 {
+  width: 33.333333%;
+  padding: 4px;
+}
+
+.col-5 {
+  width: 41.666666%;
+  padding: 4px;
+}
+
+.col-6 {
+  width: 50%;
+  padding: 4px;
+}
+
+.col-7 {
+  width: 58.666666%;
+  padding: 4px;
+}
+
+.col-8 {
+  width: 66.666666%;
+  padding: 4px;
+}
+
+.col-9 {
+  width: 75%;
+  padding: 4px;
+}
+
+.col-10 {
+  width: 83.333333%;
+  padding: 4px;
+}
+
+.col-11 {
+  width: 91.666666%;
+  padding: 4px;
+}
+
+.col-12 {
+  width: 100%;
+  padding: 4px;
+}
+
+.brun {
+  background-color: brown;
+}
+
+.maron {
+  background-color: maroon; 
+}
+
+.bordeaux {
+  background-color: blueviolet; 
+}
+
+.rouge {
+  background-color: red; 
+}
+
+.orange {
+  background-color: orange;
+}
+
+.orangeClair {
+ background-color: orangered; 
+}
+
+.jaune {
+ background-color: yellow; 
+}
+
+.vertClair {
+  background-color: green; 
+}
+
+.vertFonce {
+  background-color: greenyellow;
+}
+
+.bleuFonce {
+ background-color: blue;
+}
+
+.bleuClair {
+ background-color: blueviolet; 
+}
+
+
+.gras {
+  font-weight: bold;
+  font-size: 2em;
+}
+.col-1 .brun {
+  background-color: brown;
+}
+
+.col-1 .maron {
+  background-color: maroon; 
+}
+
+.col-1 .bordeaux {
+  background-color: blueviolet; 
+}
+
+.col-1 .rouge {
+  background-color: red; 
+}
+
+.col-1 .orange {
+  background-color: orange;
+}
+
+.col-1 .orangeClair {
+ background-color: orangered; 
+}
+
+.col-1 .jaune {
+ background-color: yellow; 
+}
+
+.col-1 .vertClair {
+  background-color: green; 
+}
+
+.col-1 .vertFonce {
+  background-color: greenyellow;
+}
+
+.col-1 .bleuFonce {
+ background-color: blue;
+}
+
+.col-1 .bleuClair {
+ background-color: blueviolet; 
+}
+
+.col-1 .lavande {
+  background-color: lavender;
+}
+.deux .brun{
+  background-color: brown;
+}
+
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+

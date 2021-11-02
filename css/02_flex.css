@@ -1,0 +1,92 @@
+
+/* style pr row */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.rouge {
+  background-color: red;
+}
+
+.orange {
+  background-color: orangered;
+
+}
+
+.orangeClair {
+  background-color: orange;
+}
+
+.jaune {
+  background-color: rgb(255, 230, 0);
+}/* fin style pr row */
+
+
+/* style pr row-reverse */
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.rouge {
+  background-color: red;
+}
+
+.orange {
+  background-color: orangered;
+
+}
+
+.orangeClair {
+  background-color: orange;
+}
+
+.jaune {
+  background-color: rgb(255, 230, 0);
+}/* fin du style row-revers */
+
+/* style pr colomn */
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.rouge {
+  background-color: red;
+}
+
+.orange {
+  background-color: orangered;
+
+}
+
+.orangeClair {
+  background-color: orange;
+}
+
+.jaune {
+  background-color: rgb(255, 230, 0);
+}/* fin style column */
+
+/* style pr column-reverse */
+.column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.rouge {
+  background-color: red;
+}
+
+.orange {
+  background-color: orangered;
+
+}
+
+.orangeClair {
+  background-color: orange;
+}
+
+.jaune {
+  background-color: rgb(255, 230, 0);
+}
