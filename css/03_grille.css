@@ -2,6 +2,7 @@
 /* on définit la largeur ds colonnes en %age, on calcule la  première colonne = 100/12 donnera la taille de notre première que l'on multipliera pr avoir ls autres colonnes*/
 * {
   box-sizing: border-box;
+  background-color: #90a525;
 }
 
 .mx-auto/* mx-auto c'est centrer horizontalement */ {
