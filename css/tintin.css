@@ -1,0 +1,131 @@
+/* le style général */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: beige;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* CONTAINER */
+
+
+
+header {
+  background-color: pink;
+
+  padding: 30px;
+  text-align: center;
+  font-size: 2em;
+  color: rgb(255, 246, 247);
+  text-transform: uppercase;
+}
+
+aside {
+  background-color: hotpink;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+section {
+  background-color: rgb(70, 70, 131);
+}
+
+
+
+/* FOOTER */
+
+
+
+footer {
+  text-align: center;
+  background-color: pink;
+  color: white;
+  padding: 10px;
+}
+
+/*  RANGÉE ET COLONNES */
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.col-1 {
+  width: 8.333333%;
+  padding: 25px;
+}
+
+.col-2 {
+  width: 16.6666%;
+  padding: 25px;
+}
+
+.col-3 {
+  width: 25%;
+  padding: 25px;
+}
+
+.col-4 {
+  width: 33.333333%;
+  padding: 25px;
+}
+
+.col-5 {
+  width: 41.6666666%;
+  padding: 25px;
+}
+
+.col-6 {
+  width: 50%;
+  padding: 25px;
+}
+
+.col-7 {
+  width: 58.333333%;
+  padding: 25px;
+}
+
+.col-8 {
+  width: 66.666666%;
+  padding: 25px;
+}
+
+.col-9 {
+  width: 75%;
+  padding: 25px;
+}
+
+.col-10 {
+  width: 83.333333%;
+  padding: 25px;
+}
+
+.col-11 {
+  width: 91.666666%;
+  padding: 25px;
+}
+
+.col-12 {
+  width: 100%;
+  padding: 25px;
+}
+
+/* LES MEDIA QUERIES SMARTPHONE */
+
+@media screen and (max-width: 600px) {
+.col-4,
+.col-8 {
+  width: 100%;
+}
+}
